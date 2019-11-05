@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <title>Réalisateurs</title>
     <link rel="shortcut icon" href="../image/favicon.png"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><h1>Les réalisateurs du film Dofus – Livre I : Julith</h1></header>
+<header>
+    <img class="img-container" src="../image/maxresdefault.jpg"/>
+    <h1 class="inner-container">Les réalisateurs du film Dofus – Livre I : Julith</h1>
+    <h2 class="inner-container">Jean-Jacques Denis & Anthony Roux</h2>
+</header>
 <main>
     <section>
         <h2>Jean-Jacques Denis</h2>

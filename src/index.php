@@ -12,7 +12,7 @@
 </header>
 <main>
     <nav>
-        <a href="Director.html">Présentation des réalisateurs</a>
+        <a href="Director.php">Présentation des réalisateurs</a>
         <a href="Actor.html">Présentation des acteurs</a>
     </nav>
     <h1>Présentation du flim "Dofus, livre 1 : Julith"</h1>
