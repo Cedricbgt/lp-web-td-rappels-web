@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Réalisateurs</title>
-    <link rel="shortcut icon" href="../image/favicon.png"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../image/favicon.png"/>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header>
-    <img class="img-container" src="../image/maxresdefault.jpg"/>
-    <h1 class="inner-container">Les réalisateurs du film Dofus – Livre I : Julith</h1>
-    <h2 class="inner-container">Jean-Jacques Denis & Anthony Roux</h2>
-</header>
+<?php include('header.php'); ?>
 <main>
     <section>
         <h2>Jean-Jacques Denis</h2>
@@ -28,7 +24,7 @@
     <section>
         <h2>Filmographie:</h2>
         <figure>
-            <img src="../image/368148.jpg-r_1920_1080-f_jpg-q_x-xxyxx.jpg" height="500" width="350"
+            <img src="../../image/368148.jpg-r_1920_1080-f_jpg-q_x-xxyxx.jpg" height="500" width="350"
                  alt="Affiche Dofus – Livre I : Julith"/>
             <figcaption>Dofus – Livre I : Julith (2015)</figcaption>
         </figure>
@@ -43,11 +39,11 @@
             de jeux vidéo et auteur de jeux de société français.
         </p>
         <figure>
-            <img src="../image/image.jpg" height="200" width="200" alt="Image d'Anthony Roux"/>
+            <img src="../../image/image.jpg" height="200" width="200" alt="Image d'Anthony Roux"/>
             <figcaption>Image d'Anthony Roux</figcaption>
         </figure>
         <aside>
-            <figure><img src="../image/2a311_orig.jpg" height="318" width="800" alt="Image du jeu Dofus"/>
+            <figure><img src="../../image/2a311_orig.jpg" height="318" width="800" alt="Image du jeu Dofus"/>
                 <figcaption>Image du personnage "Tot" représentant Anthony Roux dans le jeu Dofus</figcaption>
             </figure>
         </aside>
@@ -55,15 +51,16 @@
     <section>
         <h2>Filmographie:</h2>
         <figure>
-            <img src="../image/Mutafukaz.jpg" height="500" width="350" alt="Affiche Mutafukaz"/>
+            <img src="../../image/Mutafukaz.jpg" height="500" width="350" alt="Affiche Mutafukaz"/>
             <figcaption>Mutafukaz (2018)</figcaption>
         </figure>
         <figure>
-            <img src="../image/368148.jpg-r_1920_1080-f_jpg-q_x-xxyxx.jpg" height="500" width="350"
+            <img src="../../image/368148.jpg-r_1920_1080-f_jpg-q_x-xxyxx.jpg" height="500" width="350"
                  alt="Affiche Dofus – Livre I : Julith"/>
             <figcaption>Dofus – Livre I : Julith (2015)</figcaption>
         </figure>
     </section>
+    <?php include('footer.php'); ?>
 </main>
 </body>
 </html>

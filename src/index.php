@@ -7,12 +7,10 @@
 </head>
 
 <body>
-<header>
-    <img src="../image/Dofus_Logo.png" height="153" width="236" alt="Logo Dofus"/>
-</header>
+<?php include('header.php'); ?>
 <main>
     <nav>
-        <a href="Director.php">Présentation des réalisateurs</a>
+        <a href="Controller/Director.php">Présentation des réalisateurs</a>
         <a href="Actor.html">Présentation des acteurs</a>
     </nav>
     <h1>Présentation du flim "Dofus, livre 1 : Julith"</h1>
@@ -113,9 +111,7 @@
             </figcaption>
         </figure>
     </article>
-    <footer>
-        <p>Site fait par Cédric Bagot</p>
-    </footer>
+
 </main>
 </body>
 </html>
